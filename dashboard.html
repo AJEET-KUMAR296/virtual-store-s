@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual OutFits</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="srtyle.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#"><img src="images/logo.jpg"></a>
+        </div>
+        <div class="nav">
+
+            <li>
+                <a href="#">Men</a>
+                <div class="men menu">
+                    <div class="content">
+                        <div class="row">
+                            <header>Topwear</header>
+                            <ul class="mega-links">
+                                <li><a href="#">- T-Shirts</a></li>
+                                <li><a href="#">Casual Shirts</a></li>
+                                <li><a href="#">Formal Shirts</a></li>
+                                <li><a href="#">Sweatshirts</a></li>
+                                <li><a href="#"> Sweaters</a></li>
+                                <li><a href="#">Blazers & Coats</a></li>
+                                <li><a href="#">Suits</a></li>
+                                <li><a href="#">Rain Jackets</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <header>Indian & Festive Wear</header>
+                            <ul class="mega-links">
+                                <li><a href="#">Kurtas & Kurta Sets</a></li>
+                                <li><a href="#">Sherwanis</a></li>
+                                <li><a href="#">Nehru Jackets</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <a href="#">Kids</a>
+            <a href="#">Women</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Studio</a>
+        </div>
+        <div class="nav1">
+            <input type="search" placeholder="Search for products, brands & more &circlearrowright;">
+        </div>
+        <div class="nav2">
+            <a href="#">Profile</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Bag</a>
+            <a href="VO_camera.html"><img src="images/camera.png" alt="" style="width: 30px;"></a>
+
+        </div>
+
+    </header>
+
+    <div class="main">
+        <div class="contain">
+            <img src="images/1pic.jpg" alt="">
+        </div>
+        <img src="images/2poic.jpg" alt="">
+    </div>
+
+
+    <div class="head-div">
+        <h2>DEAL OF THE DAY </h2>
+    </div>
+
+    <div class="shop-section">
+
+        <div class="div1 box">
+            <div class="upon">
+                <h3>Libas <span> VISHUDH</span></h3>
+                <P>Kurtas <span> <br>Under $ 11.5</span></P>
+            </div>
+            <div class="box-img"></div>
+        </div>
+        <div class="div2 box">
+            <div class="upon2">
+                <h3>SARASSAFRAS </h3>
+                <P>Dresses <span> <br>Under &#8377;2000</span></P>
+            </div>
+        </div>
+        <div class="div3 box">
+            <div class="upon3">
+                <h3>LOUIS PHILIPPE </h3>
+                <P>Work-Ready Shoes <span> <br>Under &#8377; 1500</span></P>
+            </div>
+        </div>
+        <div class="div4 box">
+            <div class="upon4">
+                <h3>Walk in Style </h3>
+                <P>Casual Shoes & Flip Shoes <span> <br>Min. 30% Off</span></P>
+            </div>
+        </div>
+        <div class="div5 box">
+            <div class="upon5">
+                <h3>ELLE <span> Inc.5</span></h3>
+                <P>Flats & Heels <span> <br>Min. 60% Off</span></P>
+            </div>
+        </div>
+        <div class="div6 box">
+            <div class="upon6">
+                <h3>CELLO </h3>
+                <P>Dinnerware & Kitchenware <span> <br>Upto 70% Off</span>
+            </div>
+        </div>
+        <div class="div7 box">
+            <div class="upon7">
+                <h3>Complete Your Looks</h3>
+                <P>Accessories <span> <br>Min. 50% Off</span>
+            </div>
+        </div>
+        <div class="div8 box">
+            <div class="upon8">
+                <h3>KAMA </h3>
+                <P>Natural Beauty <span> <br>Gift With Purchase</span>
+            </div>
+        </div>
+    </div>
+    <div class="head-div">
+        <h2>BEST OF MYNTRA EXCLUSIVE BRANDS</h2>
+    </div>
+
+
+
+    <footer>
+
+
+        <h1>Virtual OutFits</h1>
+        <div class="follow_on">
+            <h2>Follow On</h2>
+
+            <div class="follow-list">
+                <a href="#"><img src="images/gLogo.jpg" alt=""></a>
+                <a href="#"><img src="images/twitter.jpg" alt=""></a>
+                <a href="#"><img src="images/insta.jpg" alt=""></a>
+                <a href="#"><img src="images/meta.jpg" alt=""></a>
+
+            </div>
+            <div class="feedback">
+                <form id="feedbackForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Feedback" rows="5" required></textarea>
+                    <button type="submit">Submit Feedback</button>
+                </form>
+            </div>
+        </div>
+
+
+        <p>All right reserverd &copy; copyright</p>
+
+
+    </footer>
+</body>
+<script>
+    document.getElementById('feedbackForm').addEventListener('submit', (e) => {
+        e.preventDefault(); // Prevent default form submission
+        alert('Thank you for your feedback!');
+        // Optionally, reset the form
+        e.target.reset();
+    });
+</script>
+
+</html>
